@@ -19,6 +19,7 @@ public class clientThread extends Thread {
         this.threads = threads;
         maxClientsCount = threads.length;
         nr++;
+        System.out.println("dodany");
     }
 
     private boolean goodName(String name) {
