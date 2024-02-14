@@ -42,6 +42,7 @@ public class ChatClient {
             Socket socket = new Socket(this.serverAddress, 2222);
             this.in = new Scanner(socket.getInputStream());
             this.out = new PrintWriter(socket.getOutputStream(), true);
+            System.out.println("francek");
 
             while(this.in.hasNextLine()) {
                 String line = this.in.nextLine();
