@@ -21,6 +21,7 @@ public class ChatClient {
         frame.getContentPane().add(this.textField, "South");
         frame.getContentPane().add(new JScrollPane(this.messageArea), "Center");
         frame.pack();
+        System.out.println("ciuraj");
 
         textField.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
