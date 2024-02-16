@@ -98,8 +98,11 @@ public class clientThread extends Thread {
             os.close();
             clientSocket.close();
         } catch (IOException e) {
+
         }finally {
             System.out.println("masny");
+            System.out.println("sss");
+            System.out.println("kajak");
         }
     }
 }
