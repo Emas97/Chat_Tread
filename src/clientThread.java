@@ -23,6 +23,7 @@ public class clientThread extends Thread {
 
     private boolean goodName(String name) {
         for (int i = 0; i < nr; i++) {
+            System.out.println("nie ma takiej opcji ");
             if (name.equals(threads[i].getNameT())) {
                 return true;
             }
