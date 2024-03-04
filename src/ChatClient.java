@@ -7,6 +7,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ChatClient {
+    //dodaje
     String serverAddress;
     Scanner in;
     PrintWriter out;
