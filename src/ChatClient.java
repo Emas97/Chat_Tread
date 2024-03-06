@@ -10,7 +10,8 @@ public class ChatClient {
     //dodaje
     //addd
     //dddddaaasss
-    //doajemy 
+    //doajemy
+    //dodaje2
     String serverAddress;
     Scanner in;
     PrintWriter out;
