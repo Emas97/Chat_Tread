@@ -17,7 +17,7 @@ public class ChatClient {
     JTextField textField = new JTextField(50);
     JTextArea messageArea = new JTextArea(16, 50);
 
-    public ChatClient(String serverAddress) {
+    public void Ssc(String serverAddress) {
         this.serverAddress = serverAddress;
         textField.setEditable(false);
         messageArea.setEditable(false);
@@ -80,10 +80,10 @@ public class ChatClient {
         if (args.length != 1) {
             System.err.println("Pass the server IP as the sole command line argument");
         } else {
-            ChatClient client = new ChatClient(args[0]);
+            /*ChatClient client = new ChatClient(args[0]);
             client.frame.setDefaultCloseOperation(3);
             client.frame.setVisible(true);
-            client.run();
+            client.run();*/
         }
     }
 
