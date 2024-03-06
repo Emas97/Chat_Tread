@@ -18,6 +18,7 @@ public class ChatClient {
     JTextArea messageArea = new JTextArea(16, 50);
 
     public void Ssc(String serverAddress) {
+
         this.serverAddress = serverAddress;
         textField.setEditable(false);
         messageArea.setEditable(false);
